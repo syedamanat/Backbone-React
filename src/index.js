@@ -1,4 +1,5 @@
 import FormContainer from "./FormContainer.jsx";
+import Componentwo from './Componentwo.jsx';
 import $ from 'jquery';
 import Backbone from 'backbone'
 import React from 'react';
@@ -17,7 +18,8 @@ $(document).ready(function () {
         render() {
             console.log('Backbone js initiated...')
             // ReactDOM.render(<Paragraph text="hello" />, this.el)
-            ReactDOM.render(<FormContainer text="Hello World from the backbone-React Element" />, this.el)
+            ReactDOM.render(<FormContainer text="Hello World from the backbone-React Element" color="text-primary" />, this.el)
+
 
             return this;
         }

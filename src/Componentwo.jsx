@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
-class FormContainer extends Component {
+class Componentwo extends Component {
     constructor() {
         super();
         this.state = {
@@ -13,10 +13,10 @@ class FormContainer extends Component {
             <div>
                 <form id="article-form">
                 </form>
-                <h1 className={this.props.color}>{this.props.text}</h1>
+                <h1 className={this.props.color}>Hello Hello Hello</h1>
             </div>
         );
     }
 }
-export default FormContainer;
+export default Componentwo;
 
